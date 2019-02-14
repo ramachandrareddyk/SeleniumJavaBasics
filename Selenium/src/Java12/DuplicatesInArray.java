@@ -29,6 +29,7 @@ public class DuplicatesInArray {
 			
 		}
 		System.out.println(P.length);
+		System.out.println(P.length);
 	}
 
 }
