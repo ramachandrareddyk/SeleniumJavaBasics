@@ -11,7 +11,7 @@ public class StringRev {
 		for(int i=l-1;i>=0;i--)
 		{
 			rev=rev+S.charAt(i);
-			System.out.println("String Rev= "+rev);
+			//System.out.println("String Rev= "+rev);
 
 		}
 		System.out.println("String Rev= "+rev);
