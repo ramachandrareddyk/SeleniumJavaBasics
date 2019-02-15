@@ -6,7 +6,7 @@ import java.util.Set;
 public class DuplicatesInArray {
 
 	public static void main(String[] args) {
-		String P[]={"java","php","c","java","c++","c"};
+		String P[]={"java","php","c","java","c++","cc"};
 		
 		Set<String>s= new HashSet<String>();
 		for(String name:P){
@@ -32,4 +32,16 @@ public class DuplicatesInArray {
 		System.out.println(P.length);
 	}
 
+	public static void M1(){
+		char a[]={1,2,3,5,64,1,3};
+		/*for(int i=0;i<=a.length-1;i++){
+			for (int j = i+1; j < a.length; j++) {
+				if((a[i].equals(a[j]))&&(i!=j)){
+					System.out.println(P[i]);
+				}
+				
+			}
+		}
+*/	
+		}
 }
