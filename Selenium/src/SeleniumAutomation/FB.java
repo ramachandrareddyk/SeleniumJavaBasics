@@ -1,6 +1,7 @@
 package SeleniumAutomation;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -16,5 +17,6 @@ public class FB {
 		driver.findElement(By.id("pass")).sendKeys("Ramureddy@77");
 		driver.findElement(By.xpath("//input[@value='Log In']")).click();
 		System.out.println(title);
+		driver.findElement(By.id("email")).sendKeys(Keys.ARROW_DOWN);
 	}
 }
