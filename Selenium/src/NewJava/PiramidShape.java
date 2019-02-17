@@ -1,5 +1,7 @@
 package NewJava;
 
+import java.util.Scanner;
+
 public class PiramidShape {
 
 	public static void main(String[] args) {
