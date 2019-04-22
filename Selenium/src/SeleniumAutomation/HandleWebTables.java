@@ -24,6 +24,9 @@ public class HandleWebTables {
 			String actualXpath=BeforeXpath+i+AfterXpath;
 			String Company=driver.findElement(By.xpath(actualXpath)).getText();
 			System.out.println(Company);
+			
+			//*[@id="customers"]/tbody/tr[5
+]
 		}
 		
 		

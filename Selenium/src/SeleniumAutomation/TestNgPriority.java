@@ -17,5 +17,9 @@ public class TestNgPriority {
 	public void method1(){
 		System.out.println("No priority");
 	}
+	@Test
+	public void method2(){
+		System.out.println("No priority1");
+	}
 
 }
