@@ -1,6 +1,6 @@
 package Java12;
 
-public class RandomNumbers {
+public class IntReverse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
