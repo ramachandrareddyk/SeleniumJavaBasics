@@ -29,7 +29,7 @@ public class ScreenShotConcept {
 		
 		File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		FileUtils.copyFile(src,new File("C:\\Users\\lenovo\\workspace\\NaveenAutomation\\src\\SeleniumAutomation\\google.png"));
+		FileUtils.copyFile(src,new File("C:\\Users\\USER-PC\\Documents\\GitHub\\SeleniumJavaBasics\\Selenium\\test-output\\google.png"));
 		
 		
 		

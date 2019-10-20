@@ -33,11 +33,11 @@ public class HandleWindowPopup {
 		
 		String ParentwindowId=it.next();
 		
-		//System.out.println("parent window id= "+ParentwindowId);
+		System.out.println("parent window id= "+ParentwindowId);
 		
 		String chaildWindowId=it.next();
 		
-		//System.out.println("chaild window id= "+chaildWindowId);
+		System.out.println("chaild window id= "+chaildWindowId);
 		
 		driver.switchTo().window(chaildWindowId);
 		
