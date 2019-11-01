@@ -5,10 +5,10 @@ package ExcelReading;
 	import java.io.FileOutputStream; 
 	import java.io.IOException; 
 	import java.util.Calendar;  
-	import org.apache.poi.common.usermodel.HyperlinkType; 
+	
 	import org.apache.poi.hssf.usermodel.HSSFDateUtil; 
 	import org.apache.poi.ss.usermodel.CellStyle; 
-	import org.apache.poi.ss.usermodel.CellType; 
+	
 	import org.apache.poi.ss.usermodel.FillPatternType; 
 	import org.apache.poi.ss.usermodel.IndexedColors; 
 	import org.apache.poi.xssf.usermodel.XSSFCell; 
